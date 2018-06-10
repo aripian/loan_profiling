@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS profileInfo (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR,
+  email VARCHAR,
+  idNo VARCHAR,
+  profile VARCHAR,
+  score VARCHAR,
+  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
